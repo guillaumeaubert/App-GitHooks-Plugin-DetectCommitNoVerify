@@ -1,0 +1,4 @@
+lib/App/GitHooks/Plugin/DetectCommitNoVerify.pm
+t/00-load.t
+t/10-run.t
+t/11-perlcompile.t
