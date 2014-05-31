@@ -24,7 +24,7 @@ provides:
 requires:
   App::GitHooks: '0'
   Capture::Tiny: '0'
-  perl: '5.006'
+  perl: '5.01'
 resources:
   bugtracker: https://github.com/guillaumeaubert/App-GitHooks-Plugin-DetectCommitNoVerify/issues
   homepage: https://metacpan.org/release/App-GitHooks-Plugin-DetectCommitNoVerify
