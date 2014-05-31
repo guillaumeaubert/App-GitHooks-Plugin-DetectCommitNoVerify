@@ -39,8 +39,9 @@ my $tests =
 has_git();
 
 # Bail out if App::GitHooks::Plugin::PerlCompile is not available.
-eval { require App::GitHooks::Plugin::PerlCompile; };
-plan( skip_all => 'App::GitHooks::Plugin::PerlCompile is not installed.' )
+my $module = 'App::GitHooks::Plugin::PerlCompile';
+eval { require $module };
+plan( skip_all => "$module is not installed." )
 	if $@;
 
 plan( tests => scalar( @$tests ) );
