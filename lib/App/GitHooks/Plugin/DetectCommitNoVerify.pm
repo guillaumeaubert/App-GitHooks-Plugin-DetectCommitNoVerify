@@ -7,8 +7,6 @@ use base 'App::GitHooks::Plugin';
 
 # External dependencies.
 use Capture::Tiny qw();
-use File::Slurp qw();
-use Storable qw();
 
 # Internal dependencies.
 use App::GitHooks::Constants qw( :PLUGIN_RETURN_CODES );
