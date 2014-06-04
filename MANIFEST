@@ -14,6 +14,7 @@ example/examples.txt
 ignore.txt
 lib/App/GitHooks/Plugin/DetectCommitNoVerify.pm
 t/00-load.t
+t/01-git_version.t
 t/10-run.t
 t/11-perlcompile.t
 xt/changes.t
