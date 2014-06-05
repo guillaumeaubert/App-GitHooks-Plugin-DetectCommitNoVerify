@@ -1,4 +1,8 @@
 Revision history for App-GitHooks-Plugin-DetectCommitNoVerify
 
+v1.0.1  2014-06-04
+        - Noted git version in tests to help troubleshooting.
+        - Required git v1.7.4.1.
+
 v1.0.0  2014-05-31
         - Public release.
