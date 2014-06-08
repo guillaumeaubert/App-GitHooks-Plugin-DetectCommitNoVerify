@@ -29,11 +29,11 @@ will add their output to the commit message for posterity (and public shaming).
 
 =head1 VERSION
 
-Version 1.0.1
+Version 1.0.2
 
 =cut
 
-our $VERSION = '1.0.1';
+our $VERSION = '1.0.2';
 
 
 =head1 METHODS
