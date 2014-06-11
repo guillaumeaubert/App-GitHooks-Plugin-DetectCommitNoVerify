@@ -106,7 +106,7 @@ foreach my $test ( @$tests )
 				ok(
 					!defined( $stderr ) || ( $stderr !~ /\w/ ),
 					'No error message is printed prior to the commit.',
-				);
+				) || diag( "STDERR: >$stderr<." );
 			}
 			else
 			{
