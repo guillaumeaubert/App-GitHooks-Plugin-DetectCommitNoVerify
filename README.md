@@ -3,7 +3,7 @@ App-GitHooks-Plugin-DetectCommitNoVerify
 
 [![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-DetectCommitNoVerify.svg?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-DetectCommitNoVerify)
 [![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-DetectCommitNoVerify/badge.svg?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-DetectCommitNoVerify?branch=master)
-[![Latest Version](https://img.shields.io/github/tag/guillaumeaubert/App-GitHooks-Plugin-DetectCommitNoVerify.svg?style=flat)](https://metacpan.org/release/App-GitHooks-Plugin-DetectCommitNoVerify)
+[![CPAN](https://img.shields.io/cpan/v/App-GitHooks-Plugin-DetectCommitNoVerify.svg)](https://metacpan.org/release/App-GitHooks-Plugin-DetectCommitNoVerify)
 
 App::GitHooks plugin to find out when someone uses --no-verify and append the
 pre-commit checks to the commit message.
