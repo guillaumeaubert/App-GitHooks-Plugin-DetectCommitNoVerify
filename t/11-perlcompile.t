@@ -7,7 +7,7 @@ use warnings;
 # Capture::Tiny.
 use Capture::Tiny;
 use Test::Exception;
-use Test::Git;
+use Test::Requires::Git;
 use Test::More;
 
 use App::GitHooks::Test qw( ok_add_files ok_setup_repository );
@@ -16,7 +16,7 @@ use App::GitHooks::Test qw( ok_add_files ok_setup_repository );
 ## no critic (RegularExpressions::RequireExtendedFormatting)
 
 # Require git.
-has_git( '1.7.4.1' );
+test_requires_git( '1.7.4.1' );
 
 # List of tests to perform.
 my $tests =
@@ -41,7 +41,7 @@ my $tests =
 ];
 
 # Bail out if Git isn't available.
-has_git();
+test_requires_git();
 
 # Bail out if App::GitHooks::Plugin::PerlCompile is not available.
 my $module = 'App::GitHooks::Plugin::PerlCompile';
