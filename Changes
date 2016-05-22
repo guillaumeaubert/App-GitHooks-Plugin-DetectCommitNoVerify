@@ -1,5 +1,9 @@
 Revision history for App-GitHooks-Plugin-DetectCommitNoVerify
 
+v1.0.3  2016-05-21
+        - Cleaned up dependencies.
+        - Added debugging to catch errors on OpenBSD (GH-1).
+
 v1.0.2  2014-06-07
         - Made git test safer to run.
 

@@ -3,22 +3,22 @@ require 5.010;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'PL_FILES' => {},
-  'EXE_FILES' => [],
   'INSTALLDIRS' => 'site',
-  'NAME' => 'App::GitHooks::Plugin::DetectCommitNoVerify',
-  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/DetectCommitNoVerify.pm',
   'PREREQ_PM' => {
-                   'App::GitHooks' => 0,
+                   'Test::Exception' => 0,
                    'Git::Repository' => 0,
-                   'Test::Requires::Git' => '1.005',
-                   'Capture::Tiny' => 0,
-                   'Test::More' => '0.94',
                    'Test::FailWarnings' => 0,
-                   'Test::Exception' => 0
+                   'Test::More' => '0.94',
+                   'Capture::Tiny' => 0,
+                   'Test::Requires::Git' => '1.005',
+                   'App::GitHooks' => 0
                  },
+  'PL_FILES' => {},
+  'NAME' => 'App::GitHooks::Plugin::DetectCommitNoVerify',
   'test' => {
               'TESTS' => 't/*.t'
-            }
+            },
+  'EXE_FILES' => [],
+  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/DetectCommitNoVerify.pm'
 )
 ;
